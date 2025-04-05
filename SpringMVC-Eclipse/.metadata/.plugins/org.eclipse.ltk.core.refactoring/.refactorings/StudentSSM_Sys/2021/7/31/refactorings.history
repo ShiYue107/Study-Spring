@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring accessors="true" comment="Delete element from project &apos;StudentSSM_Sys&apos;&#x0D;&#x0A;- Original project: &apos;StudentSSM_Sys&apos;&#x0D;&#x0A;- Original element: &apos;StudentSSM_Sys/src/com.koma.stu.mapper&apos;" description="Delete element" element1="/src&lt;com.koma.stu.mapper" element2="/src&lt;com.koma.stu" element3="/src&lt;com.koma" element4="/src&lt;com" elements="4" flags="589830" id="org.eclipse.jdt.ui.delete" resources="0" stamp="1627749690834" subPackages="false" version="1.0"/>
+</session>

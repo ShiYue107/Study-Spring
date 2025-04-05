@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.fivan.mapper.BooksMapper">
+    <!--增-->
+    <insert id="addBook" parameterType="books">
+        insert into ssmbuild.books (bookName,bookCounts,detail) values (#{bookName},#{bookCounts},#{detail})
+    </insert>
+    <!--删deleteBookById-->
+    <delete id="deleteBookById" parameterType="_int">
+        delete from ssmbuild.books where bookId=#{bookId}
+    </delete>
+
+    <!--改updateBook-->
+    <update id="updateBook" parameterType="books">
+        update ssmbuild.books set bookName=#{bookName},bookCounts=#{bookCounts},detail=#{detail} where bookId=#{bookId}
+    </update>
+
+    <!--查 单个selectBookById-->
+    <select id="selectBookById" resultType="books">
+        select * from ssmbuild.books where bookId=#{bookId}
+    </select>
+
+    <!--查 所有selectBooks-->
+    <select id="selectBooks" resultType="books">
+        select * from ssmbuild.books
+    </select>
+
+    <!--模糊查询 selectLike-->
+    <select id="selectLike" resultType="books">
+        select * from ssmbuild.books where bookName like #{bookName}
+    </select>
+
+</mapper>
