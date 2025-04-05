@@ -1,0 +1,4 @@
+#Tomcat publish data
+#Tue Jan 11 22:17:21 CST 2022
+org.eclipse.jst.jee.server\:/binary\:G\:\\project\\eclipse_project\\SpringMVC\\BoyaBlogSys\\WebContent\\WEB-INF\\lib\\spring-web-4.1.3.RELEASE.jar=WEB-INF/lib/spring-web-4.1.3.RELEASE.jar
+org.eclipse.jst.jee.server\:/binary\:G\:\\project\\eclipse_project\\SpringMVC\\BoyaBlogSys\\WebContent\\WEB-INF\\lib\\log4j-core-2.0-rc1.jar=WEB-INF/lib/log4j-core-2.0-rc1.jar
